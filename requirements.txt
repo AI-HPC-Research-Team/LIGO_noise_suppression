@@ -1,0 +1,8 @@
+pybind11
+torch
+six
+regex
+numpy
+bilby
+astropy==4.3.1
+lalsimulation
