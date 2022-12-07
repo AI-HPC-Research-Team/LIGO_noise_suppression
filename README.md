@@ -36,7 +36,7 @@ bash demo.sh
 Training curve would be as follows.
 
 <div align="center">
-    <img src='images/demo.png' alt='training curve' style='zoom:100%'>
+    <img src='images/demo.png' alt='training curve' style='zoom:80%'>
 </div>
 
 ### Arguments
