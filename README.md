@@ -25,7 +25,6 @@ It can be observed that both phase and amplitude information of the waveforms ar
 * `astropy == 4.3.1`
 * `lalsimulation >= 3.0.0`
 * `bilby >= 1.1.4`
-* `yaml >= 5.3.1`
 
 ## Run Training Demo
 
