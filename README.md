@@ -63,7 +63,7 @@ We have tested WaveFormer with python 3.8, pytorch 1.10.0, cuda 11.1, and nccl 2
 
 To use this repository, we recommend using one of NGC's PyTorch containers (`docker pull nvcr.io/nvidia/pytorch:20.12-py3`).
 
-Optionally, we have build an docker image based on the above container that can be pulled through `docker push zzhopezhou/astropre:1.5`.
+Optionally, we have build an docker image based on the above container that can be pulled through `docker pull zzhopezhou/astropre:1.5`.
 Widely used libraries for gravitaional wave and astronomical analysis including `astropy`, `bilby`, `lalsimulation`, et. al. are already installed in the image.
 
 ## Citations
