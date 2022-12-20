@@ -1,4 +1,4 @@
-# WaveFormer
+# Intelligent noise suppression for gravitational wave observational data
 [![release](https://img.shields.io/badge/release-v1.0.0-orange.svg)](https://img.shields.io/badge/release-v1.0.0-orange.svg)
 [![license](https://shields.io/badge/license-Apachev2.0-green.svg)](https://shields.io/badge/license-Apachev2.0-green.svg)
 
