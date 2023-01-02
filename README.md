@@ -5,9 +5,18 @@
 
 ## Introduction
 
-This repository contains the code and data example of [our paper](). 
+This repository contains the code and data example of [our paper](https://arxiv.org/abs/2212.14283). 
 Data parallel and model parallel machanism are choosable during running the code.
 Based on [Megatron-LM framework](https://github.com/NVIDIA/Megatron-LM), we achieved gravitational wave denoising and parameter estimation with transformer-based model.
+
+## Abstract
+With the advent of gravitational-wave astronomy and the discovery of more compact binary coalescences, data quality improvement techniques are desired to handle the complex and overwhelming noise in gravitational wave (GW) observational data.
+Though recent studies have shown promising results for data denoising, they are unable to precisely recover both the GW signal amplitude and phase. 
+To address such an issue, we develop a deep neural network centered workflow, WaveFormer, for significant noise suppression and signal recovery on observational data from the Laser Interferometer Gravitational-Wave Observatory (LIGO). 
+The WaveFormer has a science-driven architecture design with hierarchical feature extraction across a broad frequency spectrum. 
+As a result, the overall noise and glitch are decreased by more than 1 order of magnitude and the signal recovery error is roughly 1% and 7% for the phase and amplitude, respectively. 
+Moreover, we achieve state-of-the-art accuracy on reported binary black hole events of existing LIGO observing runs and substantial 1386 years inverse false alarm rate improvement on average. 
+Our work highlights the potential of large neural networks for GW data quality improvement and can be extended to the data processing analyses of upcoming observing runs.
 
 ## Results
 Based on pretrained WaveFormer, we can achieve significant noise suppression on real observational gravitational waveforms.
@@ -15,7 +24,7 @@ Here, we present some results on reported binary black hole events.
 It can be observed that both phase and amplitude information of the waveforms are well recovered.
 
 <div align="center">
-    TBA
+    <img src='images/fig5.png' alt='example' style='zoom:80%'>
 </div>
 
 ## Requirements
@@ -69,7 +78,13 @@ Widely used libraries for gravitaional wave and astronomical analysis including 
 Please cite the following papers if you find the code useful:
 
 ```
-@article{TBA
+@article{ren2022intelligent,
+  title={Intelligent noise suppression for gravitational wave observational data},
+  author={Zhixiang Ren, He Wang, Yue Zhou, Zong-Kuan Guo and Zhoujian Cao},
+  doi={https://doi.org/10.48550/arXiv.2212.14283},
+  pages={1--20},
+  year={2022}
+}
  
 }
 
