@@ -85,8 +85,6 @@ Please cite the following papers if you find the code useful:
   pages={1--20},
   year={2022}
 }
- 
-}
 
 @inproceedings{narayanan2021efficient,
   title={Efficient large-scale language model training on gpu clusters using megatron-lm},
