@@ -80,9 +80,8 @@ Please cite the following papers if you find the code useful:
 ```
 @article{ren2022intelligent,
   title={Intelligent noise suppression for gravitational wave observational data},
-  author={Zhixiang Ren, He Wang, Yue Zhou, Zong-Kuan Guo and Zhoujian Cao},
-  doi={https://doi.org/10.48550/arXiv.2212.14283},
-  pages={1--20},
+  author={Ren, Zhixiang and Wang, He and Zhou, Yue and Guo, Zong-Kuan and Cao, Zhoujian},
+  journal={arXiv preprint arXiv:2212.14283},
   year={2022}
 }
 
