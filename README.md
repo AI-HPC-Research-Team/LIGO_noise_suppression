@@ -1,21 +1,24 @@
-# Intelligent noise suppression for gravitational wave observational data
+# WaveFormer: transformer-based denoising method for gravitational-wave data
 [![release](https://img.shields.io/badge/release-v1.0.0-orange.svg)](https://img.shields.io/badge/release-v1.0.0-orange.svg)
 [![license](https://shields.io/badge/license-Apachev2.0-green.svg)](https://shields.io/badge/license-Apachev2.0-green.svg)
 
 ## Introduction
 
-This repository contains the code and data example of [our paper](https://arxiv.org/abs/2212.14283). 
+This repository contains the code and data example of our paper. 
 Data parallel and model parallel machanism are choosable during running the code.
 Based on [Megatron-LM framework](https://github.com/NVIDIA/Megatron-LM), we achieved gravitational wave denoising and significance estimation with transformer-based model.
 
+- To access our pre-release paper: [ArXiv](https://arxiv.org/abs/2212.14283)
+- To access our published paper: [MLST]()
+
 ## Abstract
 With the advent of gravitational-wave astronomy and the discovery of more compact binary coalescences, data quality improvement techniques are desired to handle the complex and overwhelming noise in gravitational wave (GW) observational data.
-Though recent studies have shown promising results for data denoising, they are unable to precisely recover both the GW signal amplitude and phase. 
-To address such an issue, we develop a deep neural network centered workflow, WaveFormer, for significant noise suppression and signal recovery on observational data from the Laser Interferometer Gravitational-Wave Observatory (LIGO). 
-The WaveFormer has a science-driven architecture design with hierarchical feature extraction across a broad frequency spectrum. 
-As a result, the overall noise and glitch are decreased by more than 1 order of magnitude and the signal recovery error is roughly 1% and 7% for the phase and amplitude, respectively. 
-Moreover, we achieve state-of-the-art accuracy on reported binary black hole events of existing LIGO observing runs and substantial 1386 years inverse false alarm rate improvement on average. 
-Our work highlights the potential of large neural networks for GW data quality improvement and can be extended to the data processing analyses of upcoming observing runs.
+Though recent machine learning-based studies have shown promising results for data denoising, they are unable to precisely recover both the GW signal amplitude and phase.
+To address such an issue, we develop a deep neural network centered workflow, WaveFormer, for significant noise suppression and signal recovery on observational data from the Laser Interferometer Gravitational-Wave Observatory (LIGO).
+The WaveFormer has a science-driven architecture design with hierarchical feature extraction across a broad frequency spectrum.
+As a result, the overall noise and glitch are decreased by more than one order of magnitude and the signal recovery error is roughly 1\% and 7\% for the phase and amplitude, respectively.
+Moreover, on 75 reported binary black hole (BBH) events of LIGO we obtain a significant improvement of inverse false alarm rate.
+Our work highlights the potential of large neural networks in gravitational wave data analysis and, while primarily demonstrated on LIGO data, its adaptable design indicates promise for broader application within the International Gravitational-Wave Observatories Network (IGWN) in future observational runs.
 
 <div align="center">
     <img src='images/fig2.png' alt='example' style='zoom:10%'>
