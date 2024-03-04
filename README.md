@@ -9,7 +9,7 @@ Data parallel and model parallel machanism are choosable during running the code
 Based on [Megatron-LM framework](https://github.com/NVIDIA/Megatron-LM), we achieved gravitational wave denoising and significance estimation with transformer-based model.
 
 - To access our pre-release paper: [ArXiv](https://arxiv.org/abs/2212.14283)
-- To access our published paper: [MLST]()
+- To access our published paper: [MLST](https://iopscience.iop.org/article/10.1088/2632-2153/ad2f54)
 
 ## Abstract
 With the advent of gravitational-wave astronomy and the discovery of more compact binary coalescences, data quality improvement techniques are desired to handle the complex and overwhelming noise in gravitational wave (GW) observational data.
