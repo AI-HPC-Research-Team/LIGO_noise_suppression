@@ -84,11 +84,11 @@ Widely used libraries for gravitaional wave and astronomical analysis including 
 Please cite the following papers if you find the code useful:
 
 ```
-@article{ren2022intelligent,
-  title={Intelligent noise suppression for gravitational wave observational data},
-  author={Ren, Zhixiang and Wang, He and Zhou, Yue and Guo, Zong-Kuan and Cao, Zhoujian},
-  journal={arXiv preprint arXiv:2212.14283},
-  year={2022}
+@article{wang2024waveformer,
+  title={WaveFormer: transformer-based denoising method for gravitational-wave data},
+  author={Wang, He and Zhou, Yue and Cao, Zhoujian and Guo, Zong-Kuan and Ren, Zhixiang},
+  journal={Machine Learning: Science and Technology},
+  year={2024}
 }
 
 @inproceedings{narayanan2021efficient,
